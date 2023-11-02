@@ -63,7 +63,7 @@ namespace Demanda
             if (this.nome_tarefa == "Impulsividade2")
             {
                 string valor = Valor_Condicao();
-                this.lbl_intrucao.Text = "Por favor leia atentamente o texto abaixo: Seu melhor amigo, que costuma ter comportamento sexual semelhante ao seu e tem uma idade próxima, acabou de ligar para falar sobre uma festa onde conheceu alguém por quem se interessou. Eles acabaram fazendo sexo sem usar proteção. Seu amigo ficou muito satisfeito com o ocorrido, e te diz: “Eu me diverti muito e ela era muito atraente. Estou animado para vê-la de novo!” Um mês após a experiência, seu amigo recebeu uma mensagem no celular falando que a mulher está grávida dele. Ele está profundamente devastado, com medo de que toda a sua vida tenha acabado e chorando incontrolavelmente.";
+                this.lbl_intrucao.Text = "Imagine que você está prestes a ter relações sexuais com esta pessoa, você pode escolher entre fazê-lo agora, sem preservativo, ou esperar o prazo X para fazê-lo com preservativo. A pessoa que está disposta a fazer sexo com você é sua conhecida e você sabe que não possui nenhuma IST";
                 this.lbl_intrucao2.Text = $"Você deve esperar {valor} para fazer sexo com preservativo ou fazê-lo imediatamente sem proteção. Nesse caso você:";
                 this.lbl_valor_intervalo.Text = $"Tempo de espera: {valor}";
                 this.lbl_sem_protecao.Text = "Eu definitivamente teria sexo sem proteção";
@@ -81,7 +81,7 @@ namespace Demanda
             else if (this.nome_tarefa == "Demanda2")
             {
                 string valor = Valor_Condicao();
-                this.lbl_intrucao.Text = "Por favor leia atentamente o texto abaixo: Seu melhor amigo, que costuma ter comportamento sexual semelhante ao seu e tem uma idade próxima, acabou de ligar para falar sobre uma festa onde conheceu alguém por quem se interessou. Eles acabaram fazendo sexo sem usar proteção. Seu amigo ficou muito satisfeito com o ocorrido, e te diz: “Eu me diverti muito e ela era muito atraente. Estou animado para vê-la de novo!” Um mês após a experiência, seu amigo recebeu uma mensagem no celular falando que a mulher está grávida dele. Ele está profundamente devastado, com medo de que toda a sua vida tenha acabado e chorando incontrolavelmente.";
+                this.lbl_intrucao.Text = "Imagine que você está no supermercado local e tem a possibilidade de fazer uma compra de preservativo para utilizar hoje à noite com a pessoa da imagem. Pense que esses preservativos serão a única forma de proteção que vocês podem utilizar, que você não tenha preservativos guardados de dias anteriores, não possa obtê-los de outra fonte e que você possui sua renda típica em mãos para comprar esse item. Você sabe que a pessoa da imagem não possui nenhuma IST.";
                 this.lbl_intrucao2.Text = $"Você se dirige ao caixa e só há um modelo de preservativo disponível, uma unidade por pacote, que custa {valor}, nessa situação você:";
                 this.lbl_valor_intervalo.Text = $"Valor: {valor}";
                 this.lbl_sem_protecao.Text = "Eu definitivamente não compraria camisinha";
