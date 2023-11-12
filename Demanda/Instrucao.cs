@@ -32,13 +32,13 @@ namespace Demanda
                 this.lbl_intrucao.Text = config.instrucao2;
             } else if (etapa == "instrução_impulsividade2")
             {
-                this.lbl_intrucao.Text = config.instrucao2;
+                this.lbl_intrucao.Text = config.instrucao3;
             } else if (etapa == "instrução_demanda")
             {
-                this.lbl_intrucao.Text = config.instrucao3;
+                this.lbl_intrucao.Text = config.instrucao2;
             } else if (etapa == "instrução_demanda2")
             {
-                this.lbl_intrucao.Text = config.instrucao3;
+                this.lbl_intrucao.Text = config.instrucao2;
             }
         }
 

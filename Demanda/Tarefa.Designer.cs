@@ -67,7 +67,7 @@
             // 
             lbl_porcentagem.AutoSize = true;
             lbl_porcentagem.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_porcentagem.Location = new Point(893, 604);
+            lbl_porcentagem.Location = new Point(871, 604);
             lbl_porcentagem.Name = "lbl_porcentagem";
             lbl_porcentagem.Size = new Size(48, 25);
             lbl_porcentagem.TabIndex = 10;
@@ -79,9 +79,9 @@
             lbl_valor_intervalo.BorderStyle = BorderStyle.FixedSingle;
             lbl_valor_intervalo.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_valor_intervalo.ForeColor = SystemColors.ControlText;
-            lbl_valor_intervalo.Location = new Point(843, 446);
+            lbl_valor_intervalo.Location = new Point(722, 445);
             lbl_valor_intervalo.Name = "lbl_valor_intervalo";
-            lbl_valor_intervalo.Size = new Size(154, 78);
+            lbl_valor_intervalo.Size = new Size(339, 78);
             lbl_valor_intervalo.TabIndex = 9;
             lbl_valor_intervalo.Text = "Valor ou Intervalo";
             lbl_valor_intervalo.TextAlign = ContentAlignment.MiddleCenter;
@@ -112,7 +112,7 @@
             // lbl_com_protecao
             // 
             lbl_com_protecao.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_com_protecao.Location = new Point(1237, 505);
+            lbl_com_protecao.Location = new Point(1215, 505);
             lbl_com_protecao.Name = "lbl_com_protecao";
             lbl_com_protecao.Size = new Size(142, 141);
             lbl_com_protecao.TabIndex = 6;
@@ -122,7 +122,7 @@
             // lbl_sem_protecao
             // 
             lbl_sem_protecao.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_sem_protecao.Location = new Point(457, 505);
+            lbl_sem_protecao.Location = new Point(435, 505);
             lbl_sem_protecao.Name = "lbl_sem_protecao";
             lbl_sem_protecao.Size = new Size(142, 141);
             lbl_sem_protecao.TabIndex = 5;
@@ -166,7 +166,7 @@
             // hsb_resposta
             // 
             hsb_resposta.LargeChange = 1;
-            hsb_resposta.Location = new Point(602, 547);
+            hsb_resposta.Location = new Point(580, 547);
             hsb_resposta.Name = "hsb_resposta";
             hsb_resposta.Size = new Size(631, 40);
             hsb_resposta.TabIndex = 1;

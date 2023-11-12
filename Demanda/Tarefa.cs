@@ -94,7 +94,7 @@ namespace Demanda
             this.respostas.Add(this.hsb_resposta.Value);
             if (this.nome_tarefa == "Impulsividade" || this.nome_tarefa == "Impulsividade2")
             {
-                if (this.pergunta_atual < 8) // 8
+                if (this.pergunta_atual < 9) // 8
                 {
                     this.pergunta_atual++;
                     this.Iniciar();
@@ -141,7 +141,7 @@ namespace Demanda
             }
             else
             {
-                String[] valores = { "1 h", "3 h", "6 h", "1 dia", "3 dias", "1 semana", "1 mês", "3 meses" };
+                String[] valores = { "0 h", "1 h", "3 h", "6 h", "1 dia", "3 dias", "1 semana", "1 mês", "3 meses" };
                 return valores[this.pergunta_atual - 1];
             }
         }
