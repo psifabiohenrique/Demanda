@@ -60,14 +60,14 @@
             pnl_conteudo.Location = new Point(0, 0);
             pnl_conteudo.Margin = new Padding(3, 4, 3, 4);
             pnl_conteudo.Name = "pnl_conteudo";
-            pnl_conteudo.Size = new Size(1463, 911);
+            pnl_conteudo.Size = new Size(1463, 959);
             pnl_conteudo.TabIndex = 0;
             // 
             // lbl_porcentagem
             // 
             lbl_porcentagem.AutoSize = true;
             lbl_porcentagem.Font = new Font("Segoe UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_porcentagem.Location = new Point(871, 604);
+            lbl_porcentagem.Location = new Point(871, 636);
             lbl_porcentagem.Name = "lbl_porcentagem";
             lbl_porcentagem.Size = new Size(48, 25);
             lbl_porcentagem.TabIndex = 10;
@@ -79,9 +79,9 @@
             lbl_valor_intervalo.BorderStyle = BorderStyle.FixedSingle;
             lbl_valor_intervalo.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_valor_intervalo.ForeColor = SystemColors.ControlText;
-            lbl_valor_intervalo.Location = new Point(722, 445);
+            lbl_valor_intervalo.Location = new Point(722, 468);
             lbl_valor_intervalo.Name = "lbl_valor_intervalo";
-            lbl_valor_intervalo.Size = new Size(339, 78);
+            lbl_valor_intervalo.Size = new Size(339, 82);
             lbl_valor_intervalo.TabIndex = 9;
             lbl_valor_intervalo.Text = "Valor ou Intervalo";
             lbl_valor_intervalo.TextAlign = ContentAlignment.MiddleCenter;
@@ -90,20 +90,20 @@
             // 
             lbl_negrito.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             lbl_negrito.ForeColor = SystemColors.ControlText;
-            lbl_negrito.Location = new Point(394, 280);
+            lbl_negrito.Location = new Point(394, 295);
             lbl_negrito.Name = "lbl_negrito";
-            lbl_negrito.Size = new Size(992, 78);
+            lbl_negrito.Size = new Size(992, 82);
             lbl_negrito.TabIndex = 8;
-            lbl_negrito.Text = "No entanto, ela confidenciou recentemente que não faz uso de métodos contraceptivos.";
+            lbl_negrito.Text = "No entanto, ele confidenciou  não ter realizado vasectomia.";
             lbl_negrito.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // btn_continuar
             // 
             btn_continuar.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btn_continuar.Location = new Point(46, 782);
+            btn_continuar.Location = new Point(46, 823);
             btn_continuar.Margin = new Padding(3, 4, 3, 4);
             btn_continuar.Name = "btn_continuar";
-            btn_continuar.Size = new Size(1333, 75);
+            btn_continuar.Size = new Size(1333, 79);
             btn_continuar.TabIndex = 7;
             btn_continuar.Text = "Continuar";
             btn_continuar.UseVisualStyleBackColor = true;
@@ -112,9 +112,9 @@
             // lbl_com_protecao
             // 
             lbl_com_protecao.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_com_protecao.Location = new Point(1215, 505);
+            lbl_com_protecao.Location = new Point(1215, 532);
             lbl_com_protecao.Name = "lbl_com_protecao";
-            lbl_com_protecao.Size = new Size(142, 141);
+            lbl_com_protecao.Size = new Size(142, 148);
             lbl_com_protecao.TabIndex = 6;
             lbl_com_protecao.Text = "Eu definitivamente teria sexo com proteção";
             lbl_com_protecao.TextAlign = ContentAlignment.MiddleCenter;
@@ -122,9 +122,9 @@
             // lbl_sem_protecao
             // 
             lbl_sem_protecao.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            lbl_sem_protecao.Location = new Point(435, 505);
+            lbl_sem_protecao.Location = new Point(435, 532);
             lbl_sem_protecao.Name = "lbl_sem_protecao";
-            lbl_sem_protecao.Size = new Size(142, 141);
+            lbl_sem_protecao.Size = new Size(142, 148);
             lbl_sem_protecao.TabIndex = 5;
             lbl_sem_protecao.Text = "Eu definitivamente teria sexo sem proteção";
             lbl_sem_protecao.TextAlign = ContentAlignment.MiddleCenter;
@@ -134,9 +134,9 @@
             lbl_intrucao2.BorderStyle = BorderStyle.FixedSingle;
             lbl_intrucao2.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_intrucao2.ForeColor = SystemColors.ControlText;
-            lbl_intrucao2.Location = new Point(394, 358);
+            lbl_intrucao2.Location = new Point(394, 377);
             lbl_intrucao2.Name = "lbl_intrucao2";
-            lbl_intrucao2.Size = new Size(992, 78);
+            lbl_intrucao2.Size = new Size(992, 82);
             lbl_intrucao2.TabIndex = 4;
             lbl_intrucao2.Text = "Aqui tem uma Instrução";
             lbl_intrucao2.TextAlign = ContentAlignment.MiddleCenter;
@@ -146,19 +146,19 @@
             lbl_intrucao.BorderStyle = BorderStyle.FixedSingle;
             lbl_intrucao.Font = new Font("Segoe UI", 12.25F, FontStyle.Regular, GraphicsUnit.Point);
             lbl_intrucao.ForeColor = SystemColors.ControlText;
-            lbl_intrucao.Location = new Point(394, 57);
+            lbl_intrucao.Location = new Point(394, 60);
             lbl_intrucao.Name = "lbl_intrucao";
-            lbl_intrucao.Size = new Size(992, 223);
+            lbl_intrucao.Size = new Size(992, 235);
             lbl_intrucao.TabIndex = 3;
             lbl_intrucao.Text = "Aqui tem uma Instrução";
             lbl_intrucao.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // pcb_imagem
             // 
-            pcb_imagem.Location = new Point(46, 77);
+            pcb_imagem.Location = new Point(46, 81);
             pcb_imagem.Margin = new Padding(3, 4, 3, 4);
             pcb_imagem.Name = "pcb_imagem";
-            pcb_imagem.Size = new Size(265, 476);
+            pcb_imagem.Size = new Size(265, 501);
             pcb_imagem.SizeMode = PictureBoxSizeMode.StretchImage;
             pcb_imagem.TabIndex = 2;
             pcb_imagem.TabStop = false;
@@ -166,7 +166,7 @@
             // hsb_resposta
             // 
             hsb_resposta.LargeChange = 1;
-            hsb_resposta.Location = new Point(580, 547);
+            hsb_resposta.Location = new Point(580, 576);
             hsb_resposta.Name = "hsb_resposta";
             hsb_resposta.Size = new Size(631, 40);
             hsb_resposta.TabIndex = 1;
@@ -175,9 +175,9 @@
             // 
             // Tarefa
             // 
-            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1474, 925);
+            ClientSize = new Size(1474, 974);
             Controls.Add(pnl_conteudo);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(3, 4, 3, 4);

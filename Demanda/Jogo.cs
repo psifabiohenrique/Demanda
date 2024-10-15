@@ -109,20 +109,21 @@ namespace Demanda
                     int imagem = Pega_Imagem_Ranqueada(this.ordem_escolhas[1]);
                     this.Tarefa(this.escolha.imagens_selecionadas[imagem]);
                 } 
-                else if (respostas2 == null)
-                {
-                    respostas2 = tarefa_impulsividade.respostas;
-                    this.numero_tarefas += 1;
-                    int imagem = Pega_Imagem_Ranqueada(this.ordem_escolhas[2]);
-                    this.Tarefa(this.escolha.imagens_selecionadas[imagem]);
-                } 
+                //else if (respostas2 == null)
+                //{
+                //    respostas2 = tarefa_impulsividade.respostas;
+                //    this.numero_tarefas += 1;
+                //    int imagem = Pega_Imagem_Ranqueada(this.ordem_escolhas[2]);
+                //    this.Tarefa(this.escolha.imagens_selecionadas[imagem]);
+                //} 
                 else
                 {
                     this.numero_tarefas = 1;
                     // Aqui é necessário salvar os valores das respostas e voltar as variáveis para nulo
                     this.total_respostas.Add($"{this.nome_tarefa} {this.ordem_escolhas[0]}", respostas1);
-                    this.total_respostas.Add($"{this.nome_tarefa} {this.ordem_escolhas[1]}", respostas2);
-                    this.total_respostas.Add($"{this.nome_tarefa} {this.ordem_escolhas[2]}", tarefa_impulsividade.respostas);
+                    //this.total_respostas.Add($"{this.nome_tarefa} {this.ordem_escolhas[1]}", respostas2);
+                    //this.total_respostas.Add($"{this.nome_tarefa} {this.ordem_escolhas[2]}", tarefa_impulsividade.respostas);
+                    this.total_respostas.Add($"{this.nome_tarefa} {this.ordem_escolhas[1]}", tarefa_impulsividade.respostas);
 
 
                     respostas1 = null;
